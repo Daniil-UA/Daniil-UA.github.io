@@ -225,6 +225,7 @@ ul {
 }
 
 /* Chefs section */
+
 .chefs-title {
   max-width: 520px;
   margin: 0 auto 80px;
@@ -236,6 +237,15 @@ ul {
   width: 352px;
   border: 2px solid var(--color-brand-light);
   content: '';
+}
+
+.chefs-list {
+  display: flex;
+  gap: 30px;
+}
+
+.chefs-item {
+  flex-basis: calc((100% - 30px) / 2);
 }
 
 .chef-photo {
